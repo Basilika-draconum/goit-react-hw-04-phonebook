@@ -1,0 +1,31 @@
+.wrapper{
+    border:2px solid black;
+    border-radius: 3px;
+    padding: 15px;
+    gap: 15px;
+}
+
+.formPhonebook{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formInput{
+    width:250px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.formBtn{
+    margin-right: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+    background-color: white;
+    padding: 5px;
+}
+.formLabel{
+    font-size: 20px;
+}
