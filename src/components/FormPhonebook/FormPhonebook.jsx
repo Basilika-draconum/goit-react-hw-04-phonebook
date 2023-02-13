@@ -1,15 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import css from './formPhonebook.module.scss';
 
-// const INITIAL = {
-//   name: '',
-//   number: '',
-// };
-
 const FormPhonebook = ({ onSubmit }) => {
-  // state = {
-  //   ...INITIAL,
-  // };
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
   const actions = { name: setName, number: setNumber };
